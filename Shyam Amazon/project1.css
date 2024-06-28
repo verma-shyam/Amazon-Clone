@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    align-items: center; 
+    justify-content: space-evenly;
+
+
+}
+.nav-logo{
+    height: 50px;
+    width:110px;
+}
+.logo{
+    background-image: url(amazon1.png);
+    background-size: cover;
+    height: 50px;
+    width:110px;
+    background-color: white;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+   border: 2px solid white ;
+}
+/* box2 */
+.nav-address{
+    height: 55px;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin: 10px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin: 5px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+   
+}
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content:space-evenly ;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.3rem;
+    background-color:#febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+/* box4 */
+span{
+    font-size:0.7rem;
+}
+
+.nav-search{
+    font-size:0.85rem ;
+    font-weight: 700;
+}
+/* box6 */
+.nav-cart i{
+   font-size: 35px; 
+}
+.nav-cart{
+    font-size: 0.85rem;
+}
+/* panal */
+.panel{
+    height: 40px;
+    background-color:#222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin: 10px;
+    
+}
+.panel-ops a{
+    text-decoration: none;
+    color: white;
+}
+.panel-ops p:hover{
+    border:3px solid white;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.8rem;
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight:700;
+}
+/* Hero section */
+.hero-section{
+    background-image: url(navamg.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+}
+
+/* shop section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(184, 188, 204, 0.295);
+    
+
+}
+.box{
+    /* border:2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    
+
+}
+.box-img{
+    background-image: url(box1.jpg) ;
+    background-size: cover;
+    height: 350px;
+    margin: 1rem;
+}
+.shop-section a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+.hero2{
+    background-color: rgba(184, 188, 204, 0.295);
+    height: 300px;
+ 
+    margin-top: 25px;
+    
+}
+span{
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.hero2 a{
+    margin-top: 30px;
+    background-size: cover;
+    
+    
+    
+    display: inline;
+  
+
+}
+.hero2 a:hover{
+    border: 2px solid maroon;
+  }
+.hero2pic{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.hero3{
+    background-color: rgba(184, 188, 204, 0.295);
+    height: 300px;
+ 
+    margin-top: 25px;
+    
+}
+.hero3 a{
+    margin-top: 30px;
+    background-size: cover;
+       display: inline;
+  }
+  .hero3 a:hover{
+    border: 2px solid maroon;
+  }
+.hero3pic{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot1{
+    background-color:#6a809c;
+    align-items: center;    
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 5px;
+    color: white;
+    height: 40px;
+
+}
+.foot1 a{
+    color: white;
+    text-decoration: none;
+}
+.foot2{
+    background-color: rgb(10, 44, 59);
+    color: rgb(194, 189, 189);
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+}
+ul a{
+    display: block;
+    margin-top: 8px;
+    text-decoration: none;
+    color: white;
+    
+}
+ul p{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 8px;
+}
+.foot3{
+    height:70px;
+    background-color:rgb(10, 44, 59) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: magenta;
+
+}
+ul a:hover{
+    text-decoration: underline;
+}
